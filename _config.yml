@@ -3,10 +3,10 @@ title: DeH40
 subtitle: 探索之旅，学习之路
 # welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
 description: 你好，我是DeH40！欢迎来到我的个人主页.</br>小硕一枚，研究方向CV
-creator: <a href="http://blog.deh40.tk</a>
+creator: <a href="https://blog.deh40.tk</a>
 
-url: "http://xietao3.com"
-#enforce_ssl: "xietao3.com"
+url: "https://blog.deh40.tk"
+enforce_ssl: "blog.deh40.tk"
 
 permalink: /:year/:month/:title/
 
