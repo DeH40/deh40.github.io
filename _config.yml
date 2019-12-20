@@ -1,9 +1,9 @@
 # Basic
-title: xietao3
+title: DeH40
 subtitle: 探索之旅，学习之路
 # welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: 你好，我是谢涛！欢迎来到我的个人主页.</br>90后代码搬运工，目前就职于上海天天果园，任职iOS高级开发工程师。
-creator: <a href="http://xietao3.com</a>
+description: 你好，我是DeH40！欢迎来到我的个人主页.</br>小硕一枚，研究方向CV
+creator: <a href="http://blog.deh40.tk</a>
 
 url: "http://xietao3.com"
 #enforce_ssl: "xietao3.com"
@@ -30,7 +30,7 @@ blog_button:
     title: 博客
     description: 进入博客
 nav:
-    - {title: 关于, description: 了解更多关于我, url: '/about/index.html'}
+    #- {title: 关于, description: 了解更多关于我, url: '/about/index.html'}
 
 # Navigation buttons in the front page.
 # nav:
@@ -48,9 +48,8 @@ comment:
     
 # Social
 social:
-    weibo: xietao3
-    github: xietao3
-    csdn: xietao3
+    github: DeH40
+    csdn: qq_17518433
   
 
 
