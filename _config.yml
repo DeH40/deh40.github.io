@@ -44,7 +44,7 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    gitalk: xietao3
+    gitalk: DeH40
     
 # Social
 social:
