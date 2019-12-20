@@ -31,7 +31,7 @@
         repo: 'deh40.github.io',
         owner: '{{ site.comment.gitalk }}',
         admin: ['{{ site.comment.gitalk }}'],
-        id: 'BlogComment',
+        id: '{{page.title}}',
         distractionFreeMode: true
       });
       gitalk.render('gitalk-container');
