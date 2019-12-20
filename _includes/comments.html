@@ -23,7 +23,7 @@
   {% elsif site.comment.gitalk %}
     <div id="gitalk-container"></div>
     <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
+	<script src="/js/md5.min.js"></script>
     <script type="text/javascript">
       var gitalk = new Gitalk({
         clientID: 'c0d3ebce3c534a2f078e',
@@ -31,7 +31,7 @@
         repo: 'deh40.github.io',
         owner: '{{ site.comment.gitalk }}',
         admin: ['{{ site.comment.gitalk }}'],
-        id: '{{page.title}}',
+        id: md5(location.pathname),
         distractionFreeMode: true
       });
       gitalk.render('gitalk-container');
