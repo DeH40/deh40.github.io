@@ -1,0 +1,59 @@
+# Basic
+title: DeH40
+subtitle: 探索之旅，学习之路
+# welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+description: 你好，我是DeH40！欢迎来到我的个人主页.</br>小硕一枚，研究方向CV
+creator: <a href="https://blog.deh40.tk</a>
+
+url: "https://blog.deh40.tk"
+enforce_ssl: "blog.deh40.tk"
+
+permalink: /:year/:month/:title/
+
+# Format
+# highlighter: rouge
+
+# markdown: redcarpet
+# redcarpet:
+# extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: orange
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客
+    description: 进入博客
+nav:
+    #- {title: 关于, description: 了解更多关于我, url: '/about/index.html'}
+
+# Navigation buttons in the front page.
+# nav:
+#     - {title: Projects, description: My Projects, url: 'http://project.xietao3.com'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    gitalk: DeH40
+    
+# Social
+social:
+    github: DeH40
+    csdn: qq_17518433
+  
+
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
